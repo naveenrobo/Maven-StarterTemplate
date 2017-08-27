@@ -9,6 +9,7 @@
 
 <h2>Message : ${message}</h2>
 <h2>Counter : ${counter}</h2>
-<h3><a href="/new.htm">Click here</a></h3>
+<h3><a href="/test.htm">click me</a>
+</h3>
 </body>
 </html>

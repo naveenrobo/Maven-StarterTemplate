@@ -26,10 +26,9 @@ public class BaseController {
 		return VIEW_INDEX;
 
 	}
-
-	@RequestMapping(value = "/new.htm", method = RequestMethod.GET)
+	
+	@RequestMapping(value = "/test.htm", method = RequestMethod.GET)
 	public String welcome1(ModelMap model) {
-
 		return "page2";
 
 	}
