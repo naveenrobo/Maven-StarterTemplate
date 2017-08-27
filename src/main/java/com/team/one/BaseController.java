@@ -27,6 +27,13 @@ public class BaseController {
 
 	}
 
+	@RequestMapping(value = "/new.htm", method = RequestMethod.GET)
+	public String welcome1(ModelMap model) {
+
+		return "page2";
+
+	}
+	
 	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
 	public String welcomeName(@PathVariable String name, ModelMap model) {
 
