@@ -4,11 +4,11 @@
   <groupId>com.test</groupId>
   <artifactId>Project-One</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>Project-One Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-		<jdk.version>1.7</jdk.version>
+		<jdk.version>1.8</jdk.version>
 		<spring.version>4.1.1.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 		<junit.version>4.11</junit.version>
